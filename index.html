@@ -189,7 +189,7 @@
   /* Haldi event background */
   .event-card.haldi{
     position:relative;
-    background-image: url('devgon.png');
+    background-image: url('Devgon.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,7 +223,7 @@
 
     .event-card.cocktail{
     position:relative;
-    background-image: url('Cocktail.png');
+    background-image: url('SaatManz.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -287,6 +287,12 @@
   .event-meta div{ min-width:0; font-size:clamp(.88rem, 1.5vw, 1rem); line-height:1.35; }
   .event-meta .k{ letter-spacing:2px; color:var(--gold); font-weight:600; display:block; margin-bottom:4px; font-size:clamp(.72rem, 1.2vw, .8rem);}
   .event-meta a.k{ letter-spacing:0; color:inherit; font-weight:400; font-size:inherit; margin:0; }
+  .event-meta .route-line{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:block;
+  }
 
   /* message */
   #message{ background:var(--cream); }
@@ -354,7 +360,7 @@
     <div class="envelope" id="envelope">
       <div class="env-body"></div>
       <div class="env-flap"></div>
-      <div class="seal">S&P</div>
+      <div class="seal">P&S</div>
     </div>
   </div>
   <div class="cover-text">
@@ -371,12 +377,11 @@
     <p class="blessing reveal">request the honour of your presence at the wedding ceremony of their beloved granddaughter</p>
 
     <div class="names">
-      <div class="name script reveal">Shivangi</div>
-      <p class="lineage reveal">D/O Mrs. Sunita Kaul & Mr. Kuldeep Kumar Kaul</p>
-      <div class="with script reveal">with</div>
       <div class="name script reveal">Pulkit</div>
     <p class="lineage reveal">S/O Mrs. Reeta Bakaya & Ramesh Bakaya</p>
-
+<div class="with script reveal">with</div>
+      <div class="name script reveal">Shivangi</div>
+      <p class="lineage reveal">D/O Mrs. Sunita Kaul & Mr. Kuldeep Kumar Kaul</p>
     </div>
   </section>
 
@@ -405,12 +410,14 @@
     <div class="events-grid">
       <div class="event-card reveal cocktail" >
         <div class="divider"></div>
-        <h3>Masmuchrum Saath Manz</h3>
-        <p class="tagline">The untying of braids, as tradition ushers in a new beginning</p>
+        <h3>Saat Manz</h3>
+        <p class="tagline">A sacred beginning to the wedding celebrations, rooted in love, blessings, and Kashmiri traditions
+</p>
         <div class="event-meta">
           <div><span class="k">DATE</span>SUN · Nov 29, 2026</div>
-          <div><span class="k">TIME</span>11:00 AM</div>
-          <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/search/?api=1&query=The%20Kangra%20Fort%20Bantalab%20Road%2C%20Barnai%2C%20Saraswati%20Vihar%2C%20Jammu%2C%20Jammu%20and%20Kashmir%20181205" target="_blank">Haveli, The Kangra Fort, Jammu</a></div>
+          <div><span class="k">TIME</span>10:00 AM</div>
+          <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/search/House+Number+24,+Lane+Number+3,+Block+A,+Roop+Nagar,+Jammu,+Jammu+and+Kashmir,+Pin+Code:+180013/@32.7718224,74.8243777,15z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">H. No. 24, Lane-3, Block-A
+Roop Nagar Enclave, Jammu</a></div>
           <!-- <div><span class="k">Theme</span>Garden Lawn</div> -->
         </div>
       </div>
@@ -419,9 +426,10 @@
         <h3>Mehandiraat & Dinner</h3>
         <p class="tagline">An evening of mehndi, music, and Kashmiri traditions</p>
         <div class="event-meta">
-          <div><span class="k">DATE</span>SUN · Nov 29, 2026</div>
+          <div><span class="k">DATE</span>MON · Nov 30, 2026</div>
           <div><span class="k">TIME</span>07:00 PM</div>
-          <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/search/?api=1&query=The%20Kangra%20Fort%20Bantalab%20Road%2C%20Barnai%2C%20Saraswati%20Vihar%2C%20Jammu%2C%20Jammu%20and%20Kashmir%20181205" target="_blank">Diwan-e-Khaas, The Kangra Fort, Jammu</a></div>
+          <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/dir//ASIA+THE+HERITAGE+JAMMU,+Nehru+Market,+Sanjay+Nagar,+Jabah,+Jammu,+Jammu+and+Kashmir+180004/@32.7129228,74.8570671,17z/data=!4m20!1m10!3m9!1s0x391e8497d4fa176d:0xbf4de3a2baffb524!2sASIA+THE+HERITAGE+JAMMU!5m2!4m1!1i2!8m2!3d32.7129183!4d74.859642!16s%2Fg%2F11w1d6jykp!4m8!1m0!1m5!1m1!1s0x391e8497d4fa176d:0xbf4de3a2baffb524!2m2!1d74.859642!2d32.7129183!3e3?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Hotel Asia
+Nehru Market, Jammu</a></div>
         </div>
       </div>
       <!-- <div class="event-card reveal haldi">
@@ -439,18 +447,20 @@
         <h3>Devgon</h3>
         <p class="tagline">A sacred ritual of blessings before the wedding vows</p>
         <div class="event-meta">
-          <div><span class="k">DATE</span>MON · Nov 30, 2026</div>
-          <div><span class="k">TIME</span>11:00 AM</div>
-          <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/search/?api=1&query=The%20Kangra%20Fort%20Bantalab%20Road%2C%20Barnai%2C%20Saraswati%20Vihar%2C%20Jammu%2C%20Jammu%20and%20Kashmir%20181205" target="_blank">Kangra-Legacy, The Kangra Fort, Jammu</a></div>
+          <div><span class="k">DATE</span>TUES · Dec 1, 2026</div>
+          <div><span class="k">TIME</span>11:30 AM</div>
+         <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/dir//ASIA+THE+HERITAGE+JAMMU,+Nehru+Market,+Sanjay+Nagar,+Jabah,+Jammu,+Jammu+and+Kashmir+180004/@32.7129228,74.8570671,17z/data=!4m20!1m10!3m9!1s0x391e8497d4fa176d:0xbf4de3a2baffb524!2sASIA+THE+HERITAGE+JAMMU!5m2!4m1!1i2!8m2!3d32.7129183!4d74.859642!16s%2Fg%2F11w1d6jykp!4m8!1m0!1m5!1m1!1s0x391e8497d4fa176d:0xbf4de3a2baffb524!2m2!1d74.859642!2d32.7129183!3e3?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Hotel Asia
+Nehru Market, Jammu</a></div>
         </div>
       </div>
       <div class="event-card reveal wedding">
-        <h3>Wedding Ceremony</h3>
-        <p class="event-subheading">Reception of Barat</p>
+        <h3>Reception of Barat</h3>
         <p class="tagline">The sacred seven vows around the holy fire</p>
+        <p class="tagline">Barat will proceed from Hotel Asia to
+Vedas Banquets Hall</p>
         <div class="event-meta">
           <div><span class="k">DATE</span>WED · Dec 2, 2026</div>
-          <div><span class="k">TIME</span>10:00 AM</div>
+          <div><span class="k">TIME</span>10:30 AM</div>
           <div><span class="k">VENUE 📍</span><a class="k" href="https://www.google.com/maps/dir//Vedas+Premium+Luxury+Banquet,+Toph+Sherkhanian,+Jammu,+Jammu+and+Kashmir+181121/@28.6130176,77.0998272,12z/data=!4m8!4m7!1m0!1m5!1s0x391e844e77a3ae89:0xcbe4e381fdf8e5ec!2m2!1d74.8334813!2d32.7444632?entry=ttu&g_ep=EgoyMDI2MDkwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Vedas, Aknoor Road, Jammu</a></div>
         </div>
       </div>
@@ -484,7 +494,7 @@
   </section> -->
 
   <footer>
-    <div class="script">Shivangi &amp; Pulkit</div>
+    <div class="script">Pulkit &amp; Shivangi</div>
     <p style="margin-top:10px;">2nd December 2026</p>
     <p class="hashtag">#PulkitGotHisShivangi</p>
     <p class="credit">-Made with <span style="color: red;">&hearts;</span> by Shivangi</p>
@@ -492,7 +502,7 @@
 </main>
 
 <button id="music-toggle" aria-label="Toggle background music">♪</button>
-<audio id="bg-audio" loop src="Habbakhatoon%20by%20Vibha%20Saraf.mp3"></audio>
+<audio id="bg-audio" loop src="Aasai Sharan Kashmiri Ganesh Bhajan.mp3"></audio>
 
 <script>
   
